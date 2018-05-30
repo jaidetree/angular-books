@@ -1,0 +1,9 @@
+.books-wishlist {
+  margin: 0 auto;
+  max-width: 50rem;
+  text-align: center;
+}
+.books-wishlist__title {
+  margin: 0;
+  margin-bottom: 2rem;
+}

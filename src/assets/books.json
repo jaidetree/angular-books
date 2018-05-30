@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Professional Clojure",
+    "price": "32.79",
+    "url": "http://shop.oreilly.com/product/9781119267270.do",
+    "img": "https://covers.oreillystatic.com/images/9781119267270/cat.gif"
+  },
+  {
+    "title": "Clojure in Action",
+    "price": "49.99",
+    "url": "https://www.manning.com/books/clojure-in-action-second-edition",
+    "img": "https://images.manning.com/720/960/resize/book/7/03e3682-37fe-4cf0-a05c-8c0f15f034ad/Rathore-Clojure-2ed-HI.png"
+  },
+  {
+    "title": "Web Development with Clojure",
+    "price": "36.00",
+    "url": "https://pragprog.com/book/dswdcloj2/web-development-with-clojure-second-edition",
+    "img": "https://imagery.pragprog.com/products/446/dswdcloj2_xlargecover.jpg?1431465061"
+  }
+]

@@ -1,0 +1,9 @@
+<ul class="books">
+  <li class="books__item" *ngFor="let book of books">
+    <a class="book" href={{book.url}} target="_book">
+      <img class="book__img" alt={{book.title}} src={{book.img}} />
+      <span class="book__price">${{book.price}}</span>
+      <span class="book__title">{{book.title}}</span>
+    </a>
+  </li>
+</ul>

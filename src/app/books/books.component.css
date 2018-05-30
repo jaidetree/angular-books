@@ -1,0 +1,43 @@
+.books {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+.books__item {
+  flex: 0 0 15.625rem;
+  text-align: center;
+}
+.book {
+  position: relative;
+  display: block;
+  margin: 1rem;
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.book__img {
+  display: block;
+  margin: 1rem auto;
+  width: 12.5rem;
+  height: auto;
+}
+.book__price {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0.625rem;
+  top: 0;
+  width: 12.5rem;
+  height: 15.625rem;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  font-size: 2rem;
+  line-height: 15.625rem;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
+.book:hover .book__price {
+  opacity: 0.75;
+  transition: opacity 250ms ease-in-out;
+}
